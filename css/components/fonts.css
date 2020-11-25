@@ -1,0 +1,32 @@
+@font-face {
+  font-family: ALSRubl;
+  font-style: normal;
+  font-weight: 400;
+  src: local("ALS Rubl"), url(rouble.woff) format("woff");
+}
+@font-face {
+  font-family: BravoRG;
+  src: url(../fonts/BravoRG.eot);
+  src: local("☺"), url(../../fonts/BravoRGRegular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: ceremonius;
+  src: local("☺"), url(../../fonts/Ceremonious.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: IdealistSans;
+  src: local("☺"), url("../../fonts/Idealist Sans.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: PFDinTextCondProRegular;
+  src: local("☺"),
+    url(../../fonts/PFDinTextCondPro-Regular.otf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}

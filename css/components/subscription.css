@@ -1,0 +1,112 @@
+.subscription {
+  padding: 30px 0 70px 0;
+}
+@media (max-width: 767.98px) {
+  .subscription {
+    padding: 20px 0 50px 0;
+  }
+}
+@media (max-width: 479.98px) {
+  .subscription {
+    padding: 10px 0 30px 0;
+  }
+}
+.subscription__title {
+  color: #000;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 3.5px;
+  margin: 0 0 15px 0;
+}
+@media (max-width: 992.98px) {
+  .subscription__title {
+    font-size: 30px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  .subscription__title {
+    font-size: 28px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 479.98px) {
+  .subscription__title {
+    font-size: 26px;
+    line-height: 16px;
+  }
+}
+.subscription__body {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.subscription__text {
+  flex: 0 0 47%;
+  color: #333;
+  font-family: "PT Sans", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+}
+@media (max-width: 992.98px) {
+  .subscription__text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 767.98px) {
+  .subscription__text {
+    line-height: 20px;
+  }
+}
+@media (max-width: 479.98px) {
+  .subscription__text {
+    margin: 0 0 10px 0;
+    flex: 0 0 100%;
+  }
+}
+.subscription__inp {
+  flex: 0 0 47%;
+  position: relative;
+  cursor: pointer;
+}
+.subscription__inp:before {
+  content: "";
+  position: absolute;
+  right: 98px;
+  width: 1px;
+  top: 50%;
+  margin: -16px 0 0 0;
+  height: 32px;
+  background-color: var(--main-color);
+}
+.subscription__inp span {
+  position: absolute;
+  right: 53px;
+  top: 50%;
+  margin: -12.5px 0 0 0;
+  color: #1c242a;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 25.28px;
+  text-transform: uppercase;
+  letter-spacing: 2.12px;
+}
+.subscription__inp img {
+  position: absolute;
+  right: 27px;
+  top: 50%;
+  margin: -9px 0 0 0;
+}
+@media (max-width: 479.98px) {
+  .subscription__inp {
+    flex: 0 0 100%;
+  }
+}
